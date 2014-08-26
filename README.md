@@ -35,7 +35,8 @@ require 'capistrano/composer'
 * composer:self_update
 * composer:run
 
-The `composer:install` task will run before deploy:updated as part of
+**The `composer:install` task will not run alone. You have to execute it when you need it!!!**
+
 Capistrano's default deploy, or can be run in isolation with:
 
 ```bash
