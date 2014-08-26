@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'capistrano-composer'
-  spec.version       = '0.0.4'
-  spec.authors       = ['Scott Walkinshaw', 'Peter Mitchell']
-  spec.email         = ['scott.walkinshaw@gmail.com', 'peterjmit@gmail.com']
+  spec.version       = '0.0.5'
+  spec.authors       = ['Scott Walkinshaw', 'Peter Mitchell', 'Niklas Postulart']
+  spec.email         = ['scott.walkinshaw@gmail.com', 'peterjmit@gmail.com', 'npostulart@uandi.com']
   spec.description   = %q{Composer support for Capistrano 3.x}
   spec.summary       = %q{Composer support for Capistrano 3.x}
   spec.homepage      = 'https://github.com/capistrano/composer'
